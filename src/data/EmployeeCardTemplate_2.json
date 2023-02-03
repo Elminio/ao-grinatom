@@ -1,0 +1,125 @@
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "style": "passive",
+            "bleed": true,
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Hi ${name}!",
+                            "size": "Big"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Here's a bit about",
+                            "spacing": "None"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "${photo}",
+                            "altText": "Profile picture",
+                            "size": "big",
+                            "style": "Person"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "align": "align-right",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Hi ${name}!",
+                            "size": "small"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Here's a bit about",
+                            "spacing": "None"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "**Your** manager *is manager manager* manager is: **${manager.name}**"
+        },
+        {
+            "type": "FactSet",
+            "facts": [
+                {
+                    "$data": "${peers}",
+                    "title": "${name}",
+                    "value": "${title}"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "text text text text text text text text text text text text text text text text text text text text text text text 22222"
+        },
+        {
+            "type": "ColumnSet",
+            "style": "passive",
+            "bleed": true,
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "${photo}",
+                            "altText": "Profile picture",
+                            "size": "Small"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "align": "align-center",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Hi ${name}!",
+                            "size": "Small"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Here's a bit about",
+                            "spacing": "None"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "${photo}",
+                            "altText": "Profile picture",
+                            "size": "Small"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

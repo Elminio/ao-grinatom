@@ -1,0 +1,18 @@
+{
+    "name": "Elmin",
+    "photo": "https://www.bogportal.ru/upload/iblock/a3a/a3a55af1bbb2943c26891d930a8b2bdb.jpg",
+    "manager": {
+        "name": "Alex",
+        "title": "Test task"
+    },
+    "peers": [
+        {
+            "name": "Maks",
+            "title": "UI/UX Design"
+        },
+        {
+            "name": "Oleg",
+            "title": "Manager"
+        }
+    ]
+}
